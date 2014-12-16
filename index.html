@@ -1,42 +1,316 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Amanda Kievet's About Me Page</title>
-<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	<meta charset="UTF-8">
+	<title>Amanda Kievet</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400italic,400' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="/stylesheets/normalize.css">
+	<link rel="stylesheet" href="/stylesheets/skeleton.css">
+	<link rel="stylesheet" href="/stylesheets/animations.css">
+	<link rel="stylesheet" href="/stylesheets/styles.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
+  <script src="js/carousel.js"></script>
+
 </head>
-
 <body>
-<h1>hi i'm amanda!</h1>
-<img class="profpic" src="img/profilepic2.jpg"/>
+	<header>
+		<div class="container">
+			<div class="row">
+				<h1 id="logo">Amanda Kievet</h1>
+			</div>
+			<div class="row">
+				<div class="menu">
+					<ul class="menu">
+						<li><a href="#developer">Developer</a></li>
+						<li><a href="#designer">Designer</a></li>
+						<li><a href="#adventurer">Adventurer</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
 
-<div id="about">
-<p>I want to create work that makes the world more united, understandable, human, efficient, and beautiful. My interdisciplinary academic background equipped me with the ability to view the world from many perspectives. I had already been expressing myself visually through photography, but during my postgraduate experience living abroad in Vietnam I discovered my passion for design. Design is a solution to my thirst for both creative and intellectual challenge in my profession. Since that lightbulb moment, I added to my technical toolbox and gained design experience through my internship abroad and freelance work.</p>
-<p>When I'm not designing I'm listening to podcasts, taking photographs, travelling, motorcycling, cooking, running, reading periodicals, and trying to learn new things.</p>
-</div>
+  <!-- ILLUSTRATION -->
+
+	<section class="illustration">
+		<div class="container">
+    	<div class="row">
+    		<div id="main-illustration" class="twelve columns">
+          <img src="/images/main2.gif" alt="workspace illustration">
+    		</div>
+    	</div>
+  	</div>
+  </section>
+
+  <!-- QUOTE -->
+
+  <section id="quote">
+  	<div class="container">
+  		<div class="row">
+  			<div class="twelve columns">
+  				<h2 class="quote">Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails.  Explore, Dream, Discover. –Mark Twain</h2>
+  			</div>
+  		</div>
+  	</div>
+  </section>
 
 
-<div id="title">
-places i've been
-</div>
+  <!-- WEB DEVELOPING -->
 
 
-<div id="map">
-<img class="map" src="img/map-01.png">
-</div>
+  <section class="main">
+    <div class="animated-object macbook">
+      <div>
+        <img src="/images/macbook.gif" alt="laptop gif">
+      </div>
+    </div>
+  	<a name="developer"></a>
+		<div class="container">
+    	<div class="row project-container">
+    		<h2 class="header">Web Development</h2>
+        <div class="three columns offset-by-one project">
+          <img id="project-one" src="/images/rtfsquare.jpg" alt="Run To Food Project">
+        </div>
+        <div class="three columns offset-by-one project">
+          <img  id="project-two" src="/images/swellsquare.jpg" alt="Swell Project">
+        </div>
+        <div class="three columns offset-by-one project">
+          <img id="project-three" src="/images/blog.jpg" alt="Blog Project">
+        </div>
+    	</div>
+      <div class="row">
+        <div class="ten columns offset-by-one project-details project-one">
+          <div class="row">
+            <div class="eight columns">
+              <h5 class="title"><a href="http://runtofood.com/">Run To Food</a></h5>
+              <h6 class="title">WDI Final Project</h6>
+              <p>An application for active and adventurous city-dwellers who need a little motivation to get moving, or simply want to explore new areas.</p> 
+              <p>Run to Food allows users to input where they're starting from, how far they'd like to run, and what kind of food they'd like at the end.</p>
+            </div>
+            <div class="three columns offset-by-one">
+              <h6 class="title">About the Stack</h6>
+              <p>Single-page app, <a href="http://en.wikipedia.org/wiki/Cross-origin_resource_sharing">CORS</a>, Ruby on Rails, Sinatra, Backbone JSw</p>
+          
+              <a href="https://github.com/akievet/runtofood_client">Client Side on Github</a><br>
+              <a href="https://github.com/akievet/runtofood">Server Side on Github</a>
+            </div>
+          </div>
+        
+         
+          <hr>
+        </div>
+        <div class="ten columns offset-by-one project-details project-two">
+          <div class="row">
+            <div class="eight columns">
+              <h5 class="title">Swell</h5>
+              <h6 class="title">WDI Group Project</h6>
+              <p>Swell is a single-page web application designed for the curious social media user who wants a quick pulse of the internet's sentiment regarding a particular issue or event.</p>
+              <p>Group Members: Peter Michalakis + Thareef Marzook</p>
+            </div>
+            <div class="three columns offset-by-one">
+              <h6 class="title">About the Stack</h6>
+              <p>
+                Ruby on Rails, Javascript, Bourbon io, Handlebars.
+              </p>
+              <a href="https://github.com/akievet/swell">On Github</a>
+            </div>
+          </div>
+        
+          
+          <hr>
+        </div>
+        <div class="ten columns offset-by-one project-details project-three">
+          <div class="row">
+            <div class="eight columns">
+              <h5 class="title"><a href="http://192.241.174.132/">Personal Blog</a></h5>
+              <h6 class="title">WDI Project</h6>
+              <p>Personal Blog created both to practice creating CRUD apps in Ruby, but also to serve as an outlet for writing about my experience throughout the course.</p>
+            </div>
+            <div class="three columns offset-by-one">
+              <h6 class="title">About the Stack</h6>
+              <p>Ruby + Sinatra</p>
+              <a href="https://github.com/akievet/blog-v.2">On Github</a>
+            </div>
+          </div>
+
+          <hr>
+        </div>
+      </div>
+      <div class="row skills">
+        <div class="seven columns offset-by-one">
+          <h5>Experience</h5>
+          <p>
+          Graduate of General Assembly's Web Development Immersive Program, December 2014.
+          </p>
+        </div>
+        <div class="three columns">
+          <h5>Stack</h5>
+          <p>
+          Ruby on Rails + Sinatra, JavaScript, jQuery, d3, Backbone, HTML/CSS, Sass
+        </p>
+        </div>
+      </div>
+  	</div>
+   
+  </section>
+
+
+  <!-- DESIGN -->
+  
+
+  <section class="main">
+    <div class="animated-object moleskine">
+      <div>
+        <img src="/images/moleskine2.gif" alt="sketchbook">
+      </div>
+    </div>
+  	<a name="designer"></a>
+		<div class="container">
+    	<div class="row project-container">
+    		<h2 class="header">Graphic Design</h2>
+        <div class="three columns offset-by-one project">
+          <img src="/images/momosquare.jpg" alt="Momofuku Design" id="project-four">
+        </div>
+        <div class="three columns offset-by-one project">
+          <img src="/images/grains2.jpg" alt="26 Grains Design" id="project-five">
+        </div>
+        <div class="three columns offset-by-one project">
+          <img src="/images/rcfssquare.jpg" alt="Rock County Folk Symposium Furthermore Ad"  id="project-six">
+        </div>
+    	</div>
+      <div class="row">
+        <div class="ten columns offset-by-one project-details project-four">
+          <div class="row">
+            <div class="six columns">
+                <h5 class="title">Momofuku</h5>
+                <p>As the design intern at Momofuku, I was responsible for designing a wide range of content, from posters to tote bags to event branding.</p>
+                <p>I created this GIF to promote Ssam Bar's Late Night Dinner Series on social media.</p>
+
+            </div>
+            <div class="six columns">
+              <img src="/images/small/cochon.gif" alt="">
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="ten columns offset-by-one project-details project-five">
+          <div class="row">
+            <div class="six columns">
+              <h5 class="title">26 Grains</h5>
+              <p>Branding work for 26 Grains, an oatmeal restaurant/catering company in London.</p>
+              <p>Designed the logo and website -- <a href="http://www.26grains.com/">here</a>.</p>
+            </div>
+            <div class="six columns">
+              <img src="/images/booth2.jpg" alt="26 Grains Booth">
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="ten columns offset-by-one project-details project-six">
+          <div class="row">
+            <div class="six columns">
+              <h5 class="title">Rock County Folk Symposium</h5>
+              <p>Created graphics to promote the Rock County Folk Symposium in August, 2014.</p> <p>The Rock County Folk Symposium is an intimate weekend-long outdoor music and art experience in Southern Wisconsin.</p>
+              <p>This years theme was quarantine. <a href="http://blog.urbanoutfitters.com/blog/happenings_rock_county_folk_symposium_recap?cm_re=Blog_Content-_-B-_-happenings_rock_county_folk_symposium_recap">More images here.</a></p>
+            </div>
+            <div class="six columns">
+              <img src="/images/rcfs-map.jpg" alt="RCFS Promo">
+            </div>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div class="row skills">
+        <div class="seven columns offset-by-one">
+          <h5>Experience</h5>
+          <p>
+          <a href="http://momofuku.com/">Momofuku Design Intern</a>
+          [June - September 2014]<br>
+          <a href="http://rice-creative.tumblr.com/">Rice Creative Design Intern</a>
+          [October - December 2013]<br>
+          Freelance Clients--<br>
+          <a href="http://www.26grains.com/#about">26 Grains</a>,
+          <a href="http://ninjasforhealth.com/">Ninjas for Health</a>- <a href="http://singforwardwi.com/">Sing Forward Campaign</a>,
+          <a href="http://www.gentrynyc.com/">Gentry Menswear</a>,
+          <a href="http://rockcountyfolksymposium.com/">Rock County Folk Symposium</a>.
+          </b>
+        </div>
+        <div class="three columns">
+          <h5>Tools</h5>
+          <p>
+          Photoshop, Illustrator, InDesign
+        </p>
+        </div>
+      </div>
+  	</div>
+    
+  </section>
+
+
+<!-- ADVENTURE -->
+
+
+  <section class="main">
+    <div class="animated-object airplane">
+      <div>
+        <img src="/images/airplane-02.png" alt="Airplane">
+      </div>
+    </div>
+  	<a name="adventurer"></a>
+		<div class="container">
+    	<div class="row project-container">
+    		<h2 class="header">Adventurer</h2>
+        <div class="carousel-wrapper">
+          <div class="carousel">
+            <div class="inner">
+              <div class="slide active"></div>
+              <div class="slide"></div>
+              <div class="slide"></div>
+              <div class="slide"></div>
+              <div class="arrow arrow-left"></div>
+              <div class="arrow arrow-right"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="ten columns offset-by-one">
+            <div class="eight columns adventure-story">
+              <h6 class="title">Travel</h6>
+              <p>I studies abroad in Copenhagen, Denmark for one year (2011-2012) and lived and worked in Saigon, Vietnam for 6 months (2013-2014). I've travelled extensively in Europe and Southeast Asia, as well as around the Carribean and Mexico (22 countries in total).</p>
+              <h6 class="title">Adventure</h6>
+              <p>I'm proud to have both an Advanced Scuba Diving and a Motorcycle Driving Lisence. I've hiked up Half Dome in Yosemite and backpacked for over a week through the wilderness of Isle Royale. I've gone 35mph across the country of Vietnam on a 100cc Honda. I always pack my camera.</p>
+            </div>
+            <div class="three columns offset-by-one">
+              
+            </div>
+          </div>
+        </div>
+    	</div>
+  	</div>
+    
+  </section>
+
+  <footer>
+  	<div class="container">
+  		<div class="row">
+  			<div class="one-third column">
+          Say Hi <br><br>
+          I'm currently accepting new work, and great book or veggie restaurant suggestions.<br><br>
+          akievet[at]gmail[dot]com
+        </div>
+  			<div class="one-third column">
+          Me Elsewhere Online
+        </div>
+  			<div class="one-third column">
+          About This Site
+        </div>
+  		</div>
+  	</div>
+  </footer>
+
 </body>
-<footer>
-    <ul id="contact">
-		<li><a href="tel:608-957-6453"><img src="img/phone16.png" alt="Phone Icon" class="social-icon">608 957 6453</a></li>
-        <li><a href="mailto:akievet@gmail.com"><img src="img/close13.png" alt="Email Icon" class="social-icon">akievet@gmail.com</a></li>
-    </ul>
-    <a href="http://instagram.com/akievet"><img src="img/instagram.png" alt="Instagram Logo" class="social-icon"></a>
-    <a href="http://amandakievet.tumblr.com/"><img src="img/tumblr7.png" alt="Tumblr Logo" class="social-icon"></a>
-	<a href="https://twitter.com/amandakievet"><img src="img/social71.png" alt="Twitter Logo" class="social-icon"></a>
-    <a href="https://www.facebook.com/akievet"><img src="img/facebook7.png" alt="Facebook Logo" class="social-icon"></a>
-    <a href="www.linkedin.com/pub/amanda-kievet/80/84b/49a/"><img src="img/linkedin2.png" alt="linkedin Logo" class="social-icon"></a>
-    <a href="https://www.flickr.com/photos/akievetphotography/"><img src="img/flickr7.png" alt="Flickr Logo" class="social-icon"></a>
-    <a href="https://www.behance.net/akievet"><img src="img/behance2.png" alt="Behance Logo" class="social-icon"></a>
-
-</footer>
 </html>
