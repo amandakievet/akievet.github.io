@@ -22,15 +22,6 @@ header{
 section{
 	width: 100%;
 	padding-top: $top-padding;
-
-	&:nth-of-type(2n){
-		background-color: #eee;
-	}
-}
-
-section.illustration{
-  height: 70vh;
-  min-height: 700px;
 }
 
 .project-container{
@@ -78,11 +69,12 @@ div.menu {
 }
 
 
-/*  --------  ILLUSTRATION  --------  */@-webkit-keyframes leftright{
+/*  --------  ILLUSTRATION  --------  */
+/*@-webkit-keyframes leftright{
   0%{left: 90%;}
   50%{left: 10%;}
   100%{left: 90%;}
-}
+}*/
 
 #main-illustration img{
 	width: 100%;
@@ -93,13 +85,11 @@ div.menu {
 
 
 .quote{
-	height: 75vh;
-	min-height: 400px;  
 	font-family: $serif;
 	font-weight: 400;
 	font-style: italic;
 	line-height: 1.5;
-	padding-top: 20px;
+	padding: 20px 0 50px;
 }
 
 
@@ -107,7 +97,6 @@ div.menu {
 
 
 footer{
-	height: 30vh;
 	background-color: $dark-grey;
 	text-align: left;
 	padding-top: $top-padding;

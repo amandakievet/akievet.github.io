@@ -11,12 +11,6 @@ header {
 section {
   width: 100%;
   padding-top: 30px; }
-  section:nth-of-type(2n) {
-    background-color: #eee; }
-
-section.illustration {
-  height: 70vh;
-  min-height: 700px; }
 
 .project-container {
   padding-top: 200px; }
@@ -53,29 +47,24 @@ div.menu {
     color: inherit; }
 
 /*  --------  ILLUSTRATION  --------  */
-@-webkit-keyframes leftright {
-  0% {
-    left: 90%; }
-  50% {
-    left: 10%; }
-  100% {
-    left: 90%; } }
+/*@-webkit-keyframes leftright{
+  0%{left: 90%;}
+  50%{left: 10%;}
+  100%{left: 90%;}
+}*/
 #main-illustration img {
   width: 100%; }
 
 /*  --------  QUOTE  --------  */
 .quote {
-  height: 75vh;
-  min-height: 400px;
   font-family: "Playfair Display", serif;
   font-weight: 400;
   font-style: italic;
   line-height: 1.5;
-  padding-top: 20px; }
+  padding: 20px 0 50px; }
 
 /*  --------  FOOTER  --------  */
 footer {
-  height: 30vh;
   background-color: #eee;
   text-align: left;
   padding-top: 30px; }
