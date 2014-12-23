@@ -3,6 +3,8 @@ $dark-grey: #eee;
 $darker-grey: #aaa;
 $top-padding: 30px;
 
+$accent: #ffc84a;
+
 $serif: 'Playfair Display', serif;
 /*$sans-serif: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 $monospace: "Courier New", Courier, monospace;
@@ -32,6 +34,7 @@ section{
 #logo{
 	font-family: $serif;
 	font-weight: 900;
+	
 }
 
 .header{
