@@ -16,7 +16,6 @@ body {
 header{
 	height: 30vh;
 	padding-top: 100px;
-	background-color: $dark-grey;
 }
 
 section{
@@ -48,8 +47,8 @@ section{
 }
 
 div.menu {
-	border-top: 1px solid $grey;
-	border-bottom: 1px solid $grey;
+	border-top: 1px solid $darker-grey;
+	border-bottom: 1px solid $darker-grey;
 	text-align: center;
 }
 
@@ -89,7 +88,7 @@ div.menu {
 	font-weight: 400;
 	font-style: italic;
 	line-height: 1.5;
-	padding: 20px 0 50px;
+	padding: 20px 0 150px;
 }
 
 
@@ -109,7 +108,7 @@ footer{
 /*  --------  PORTFOLIO SECTION  --------  */
 
 section.main{
-	padding: 0;
+	padding: 0 0 50px;
 	min-height: 850px;
 }
 
@@ -155,7 +154,6 @@ p{
 		width: 100%;
 	}
 }
-
 
 .adventure-story{
 	padding-top: $top-padding;

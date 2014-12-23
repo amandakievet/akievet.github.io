@@ -5,8 +5,7 @@ body {
 
 header {
   height: 30vh;
-  padding-top: 100px;
-  background-color: #eee; }
+  padding-top: 100px; }
 
 section {
   width: 100%;
@@ -29,8 +28,8 @@ section {
   list-style: none; }
 
 div.menu {
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
   text-align: center; }
 
 .menu li {
@@ -61,7 +60,7 @@ div.menu {
   font-weight: 400;
   font-style: italic;
   line-height: 1.5;
-  padding: 20px 0 50px; }
+  padding: 20px 0 150px; }
 
 /*  --------  FOOTER  --------  */
 footer {
@@ -71,7 +70,7 @@ footer {
 
 /*  --------  PORTFOLIO SECTION  --------  */
 section.main {
-  padding: 0;
+  padding: 0 0 50px;
   min-height: 850px; }
 
 .project {
