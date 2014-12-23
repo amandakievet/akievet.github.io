@@ -23,7 +23,8 @@ section.illustration {
 
 /*  --------  TYPOGRAPHY   --------  */
 #logo {
-  font-family: "Playfair Display", serif; }
+  font-family: "Playfair Display", serif;
+  font-weight: 900; }
 
 .header {
   font-family: "Playfair Display", serif;
@@ -112,6 +113,9 @@ p {
 
 .project-details img {
   width: 100%; }
+
+.adventure-story {
+  padding-top: 30px; }
 
 /*  --------  ANIMATION  --------  */
 /* Replace the background colors, etc with an image */

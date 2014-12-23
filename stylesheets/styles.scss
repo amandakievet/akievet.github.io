@@ -41,6 +41,7 @@ section.illustration{
 
 #logo{
 	font-family: $serif;
+	font-weight: 900;
 }
 
 .header{
@@ -164,6 +165,11 @@ p{
 	img{
 		width: 100%;
 	}
+}
+
+
+.adventure-story{
+	padding-top: $top-padding;
 }
 
 
