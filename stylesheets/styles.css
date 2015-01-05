@@ -263,15 +263,15 @@ p {
 }*/
 /*  --------  CAROUSEL IMAGES  --------  */
 .slide:nth-child(1) {
-  background-image: url(images/carousel/morocco.jpg); }
+  background-image: url(/images/carousel/morocco.jpg); }
 
 .slide:nth-child(2) {
-  background-image: url(images/carousel/whites.jpg); }
+  background-image: url(/images/carousel/whites.jpg); }
 
 .slide:nth-child(3) {
-  background-image: url(images/carousel/vietnam.jpg); }
+  background-image: url(/images/carousel/vietnam.jpg); }
 
 .slide:nth-child(4) {
-  background-image: url(images/carousel/thailand.jpg); }
+  background-image: url(/images/carousel/thailand.jpg); }
 
 /*# sourceMappingURL=styles.css.map */
