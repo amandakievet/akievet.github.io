@@ -200,6 +200,18 @@ p{
 	text-align: left;
 }
 
+.adventure-text{
+	position: relative;
+	margin-top: -350px;
+}
+
+/*  --------  MAP  --------  */
+#map{
+	position: relative;
+	z-index: -1;
+	bottom: 325px;
+}
+
 
 
 /*  --------  CAROUSEL  --------  */
