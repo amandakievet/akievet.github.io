@@ -397,6 +397,41 @@ p {
   #wisconsin-carousel .slide:nth-child(5) {
     background-image: url(/images/carousel/wisconsin4.jpg); }
 
+#portugal-carousel {
+  display: none; }
+  #portugal-carousel .slide:nth-child(1) {
+    background-image: url(/images/carousel/portugal.jpg); }
+  #portugal-carousel .slide:nth-child(2) {
+    background-image: url(/images/carousel/portugal1.jpg); }
+  #portugal-carousel .slide:nth-child(3) {
+    background-image: url(/images/carousel/portugal2.jpg); }
+  #portugal-carousel .slide:nth-child(4) {
+    background-image: url(/images/carousel/portugal3.jpg); }
+  #portugal-carousel .slide:nth-child(5) {
+    background-image: url(/images/carousel/portugal4.jpg); }
+
+#northcarolina-carousel {
+  display: none; }
+  #northcarolina-carousel .slide:nth-child(1) {
+    background-image: url(/images/carousel/northcarolina.jpg); }
+  #northcarolina-carousel .slide:nth-child(2) {
+    background-image: url(/images/carousel/northcarolina1.jpg); }
+  #northcarolina-carousel .slide:nth-child(3) {
+    background-image: url(/images/carousel/northcarolina2.jpg); }
+  #northcarolina-carousel .slide:nth-child(4) {
+    background-image: url(/images/carousel/northcarolina3.jpg); }
+  #northcarolina-carousel .slide:nth-child(5) {
+    background-image: url(/images/carousel/northcarolina4.jpg); }
+
+#whites-carousel {
+  display: none; }
+  #whites-carousel .slide:nth-child(1) {
+    background-image: url(/images/carousel/whites.jpg); }
+  #whites-carousel .slide:nth-child(2) {
+    background-image: url(/images/carousel/whites1.jpg); }
+  #whites-carousel .slide:nth-child(3) {
+    background-image: url(/images/carousel/whites2.jpg); }
+
 /*  --------  LIGHTBOX  --------  */
 #lightbox {
   position: fixed;
