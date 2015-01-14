@@ -83,13 +83,9 @@ $(document).ready(function(){
 		$(e.target).attr("src", src);
 	});
 
-	var vietnamTrigger = $('#vietnam')[0]
-	var vietnamCarousel = $('#vienam-carousel')[0]
-
 	$('circle').on('click', function(e){
 		var place = e.target.id;
 		showCarousel(place);
 	});
-
 
 })

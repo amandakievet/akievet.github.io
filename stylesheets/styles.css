@@ -20,6 +20,10 @@ ul {
 .project-container {
   padding-top: 200px; }
 
+a {
+  color: #160BFD;
+  text-decoration: none; }
+
 /*  --------  TYPOGRAPHY   --------  */
 #logo {
   font-family: "Playfair Display", serif;
@@ -447,6 +451,7 @@ circle {
   stroke: #000;
   stroke-width: 15px;
   stroke-opacity: 0;
-  cursor: pointer; }
+  cursor: pointer;
+  fill: #160BFD; }
 
 /*# sourceMappingURL=styles.css.map */

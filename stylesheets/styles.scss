@@ -3,7 +3,7 @@ $dark-grey: #eee;
 $darker-grey: #aaa;
 $top-padding: 30px;
 
-$accent: #ffc84a;
+$accent: #160BFD;
 
 $serif: 'Playfair Display', serif;
 /*$sans-serif: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
@@ -34,6 +34,11 @@ ul{
 
 .project-container{
 	padding-top: 200px;
+}
+
+a{
+	color: $accent;
+	text-decoration: none;
 }
 
 /*  --------  TYPOGRAPHY   --------  */
@@ -593,10 +598,6 @@ p{
 
 
 
-
-
-
-
 /*  --------  LIGHTBOX  --------  */
 
 #lightbox {
@@ -615,4 +616,5 @@ circle{
 	stroke-width: 15px;
 	stroke-opacity: 0;
 	cursor: pointer;
+	fill: $accent;
 }
