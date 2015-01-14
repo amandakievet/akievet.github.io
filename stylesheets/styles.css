@@ -283,24 +283,28 @@ p {
 #vietnam-carousel {
   display: none; }
   #vietnam-carousel .slide:nth-child(1) {
-    background-image: url(/images/carousel/yosemite.jpg); }
-  #vietnam-carousel .slide:nth-child(2) {
-    background-image: url(/images/carousel/whites.jpg); }
-  #vietnam-carousel .slide:nth-child(3) {
     background-image: url(/images/carousel/vietnam.jpg); }
+  #vietnam-carousel .slide:nth-child(2) {
+    background-image: url(/images/carousel/vietnam1.jpg); }
+  #vietnam-carousel .slide:nth-child(3) {
+    background-image: url(/images/carousel/vietnam2.jpg); }
   #vietnam-carousel .slide:nth-child(4) {
-    background-image: url(/images/carousel/thailand.jpg); }
+    background-image: url(/images/carousel/vietnam3.jpg); }
+  #vietnam-carousel .slide:nth-child(5) {
+    background-image: url(/images/carousel/vietnam4.jpg); }
 
 #morocco-carousel {
   display: none; }
   #morocco-carousel .slide:nth-child(1) {
     background-image: url(/images/carousel/morocco.jpg); }
   #morocco-carousel .slide:nth-child(2) {
-    background-image: url(/images/carousel/lagos2.jpg); }
+    background-image: url(/images/carousel/morocco1.jpg); }
   #morocco-carousel .slide:nth-child(3) {
-    background-image: url(/images/carousel/lagos3.jpg); }
+    background-image: url(/images/carousel/morocco2.jpg); }
   #morocco-carousel .slide:nth-child(4) {
-    background-image: url(/images/carousel/mrhue.jpg); }
+    background-image: url(/images/carousel/morocco3.jpg); }
+  #morocco-carousel .slide:nth-child(5) {
+    background-image: url(/images/carousel/morocco4.jpg); }
 
 /*  --------  LIGHTBOX  --------  */
 #lightbox {
