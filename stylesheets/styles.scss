@@ -142,9 +142,9 @@ section.main{
 		cursor: pointer;
 	};
 	&:hover{
-		-webkit-box-shadow:inset 0px 0px 0px 10px $accent;
-		-moz-box-shadow:inset 0px 0px 0px 10px $accent;
-		box-shadow:inset 0px 0px 0px 10px $accent;
+		-webkit-box-shadow:inset 0px 0px 0px 15px $accent;
+		-moz-box-shadow:inset 0px 0px 0px 15px $accent;
+		box-shadow:inset 0px 0px 0px 15px $accent;
 	};
 }
 
