@@ -39,7 +39,11 @@ ul{
 a{
 	color: $accent;
 	text-decoration: none;
+	&:hover{
+		color: $accent;
+	}
 }
+
 
 /*  --------  TYPOGRAPHY   --------  */
 
@@ -80,6 +84,9 @@ div.menu {
 	a{
 		text-decoration: none;
 		color: inherit;
+		&:hover{
+			color: $accent;
+		};
 	}
 }
 
@@ -317,8 +324,8 @@ p{
 	transition: background 0.3s ease-out;
 }
 
-.indicators li.active{background: $darker-grey}
-.indicators li:hover{background-color: $darker-grey}
+.indicators li.active{background: $accent}
+.indicators li:hover{background-color: $accent}
 
 /*  --------  CAROUSEL ARROWS --------  */
 
@@ -334,7 +341,7 @@ p{
 	transition: border-coler 0.3s ease-out;
 }
 
-.arrow:hover{border-color:$darker-grey}
+.arrow:hover{border-color:$accent}
 
 .arrow-left{
 	left: 20px;

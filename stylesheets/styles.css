@@ -23,6 +23,8 @@ ul {
 a {
   color: #160BFD;
   text-decoration: none; }
+  a:hover {
+    color: #160BFD; }
 
 /*  --------  TYPOGRAPHY   --------  */
 #logo {
@@ -54,6 +56,8 @@ div.menu {
   .menu li a {
     text-decoration: none;
     color: inherit; }
+    .menu li a:hover {
+      color: #160BFD; }
 
 /*  --------  ILLUSTRATION  --------  */
 /*@-webkit-keyframes leftright{
@@ -239,10 +243,10 @@ p {
   transition: background 0.3s ease-out; }
 
 .indicators li.active {
-  background: #aaa; }
+  background: #160BFD; }
 
 .indicators li:hover {
-  background-color: #aaa; }
+  background-color: #160BFD; }
 
 /*  --------  CAROUSEL ARROWS --------  */
 .arrow {
@@ -257,7 +261,7 @@ p {
   transition: border-coler 0.3s ease-out; }
 
 .arrow:hover {
-  border-color: #aaa; }
+  border-color: #160BFD; }
 
 .arrow-left {
   left: 20px;
