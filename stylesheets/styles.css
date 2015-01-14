@@ -92,6 +92,10 @@ section.main {
   .project img {
     width: 100%;
     cursor: pointer; }
+  .project:hover {
+    -webkit-box-shadow: inset 0px 0px 0px 10px #160BFD;
+    -moz-box-shadow: inset 0px 0px 0px 10px #160BFD;
+    box-shadow: inset 0px 0px 0px 10px #160BFD; }
 
 .project-details {
   display: none;

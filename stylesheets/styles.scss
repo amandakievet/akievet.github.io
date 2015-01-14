@@ -140,7 +140,12 @@ section.main{
 	img{
 		width: 100%;
 		cursor: pointer;
-	}
+	};
+	&:hover{
+		-webkit-box-shadow:inset 0px 0px 0px 10px $accent;
+		-moz-box-shadow:inset 0px 0px 0px 10px $accent;
+		box-shadow:inset 0px 0px 0px 10px $accent;
+	};
 }
 
 .project-details{
