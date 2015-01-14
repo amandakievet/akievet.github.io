@@ -306,6 +306,97 @@ p {
   #morocco-carousel .slide:nth-child(5) {
     background-image: url(/images/carousel/morocco4.jpg); }
 
+#laos-carousel {
+  display: none; }
+  #laos-carousel .slide:nth-child(1) {
+    background-image: url(/images/carousel/laos.jpg); }
+  #laos-carousel .slide:nth-child(2) {
+    background-image: url(/images/carousel/laos1.jpg); }
+  #laos-carousel .slide:nth-child(3) {
+    background-image: url(/images/carousel/laos2.jpg); }
+  #laos-carousel .slide:nth-child(4) {
+    background-image: url(/images/carousel/laos3.jpg); }
+  #laos-carousel .slide:nth-child(5) {
+    background-image: url(/images/carousel/laos4.jpg); }
+
+#domrep-carousel {
+  display: none; }
+  #domrep-carousel .slide:nth-child(1) {
+    background-image: url(/images/carousel/domrep.jpg); }
+  #domrep-carousel .slide:nth-child(2) {
+    background-image: url(/images/carousel/domrep1.jpg); }
+  #domrep-carousel .slide:nth-child(3) {
+    background-image: url(/images/carousel/domrep2.jpg); }
+  #domrep-carousel .slide:nth-child(4) {
+    background-image: url(/images/carousel/domrep3.jpg); }
+  #domrep-carousel .slide:nth-child(5) {
+    background-image: url(/images/carousel/domrep4.jpg); }
+
+#isleroyale-carousel {
+  display: none; }
+  #isleroyale-carousel .slide:nth-child(1) {
+    background-image: url(/images/carousel/isleroyale.jpg); }
+  #isleroyale-carousel .slide:nth-child(2) {
+    background-image: url(/images/carousel/isleroyale1.jpg); }
+  #isleroyale-carousel .slide:nth-child(3) {
+    background-image: url(/images/carousel/isleroyale2.jpg); }
+  #isleroyale-carousel .slide:nth-child(4) {
+    background-image: url(/images/carousel/isleroyale3.jpg); }
+  #isleroyale-carousel .slide:nth-child(5) {
+    background-image: url(/images/carousel/isleroyale4.jpg); }
+
+#yosemite-carousel {
+  display: none; }
+  #yosemite-carousel .slide:nth-child(1) {
+    background-image: url(/images/carousel/yosemite.jpg); }
+  #yosemite-carousel .slide:nth-child(2) {
+    background-image: url(/images/carousel/yosemite1.jpg); }
+  #yosemite-carousel .slide:nth-child(3) {
+    background-image: url(/images/carousel/yosemite2.jpg); }
+  #yosemite-carousel .slide:nth-child(4) {
+    background-image: url(/images/carousel/yosemite3.jpg); }
+  #yosemite-carousel .slide:nth-child(5) {
+    background-image: url(/images/carousel/yosemite4.jpg); }
+
+#denmark-carousel {
+  display: none; }
+  #denmark-carousel .slide:nth-child(1) {
+    background-image: url(/images/carousel/denmark.jpg); }
+  #denmark-carousel .slide:nth-child(2) {
+    background-image: url(/images/carousel/denmark1.jpg); }
+  #denmark-carousel .slide:nth-child(3) {
+    background-image: url(/images/carousel/denmark2.jpg); }
+  #denmark-carousel .slide:nth-child(4) {
+    background-image: url(/images/carousel/denmark3.jpg); }
+  #denmark-carousel .slide:nth-child(5) {
+    background-image: url(/images/carousel/denmark4.jpg); }
+
+#sweden-carousel {
+  display: none; }
+  #sweden-carousel .slide:nth-child(1) {
+    background-image: url(/images/carousel/sweden.jpg); }
+  #sweden-carousel .slide:nth-child(2) {
+    background-image: url(/images/carousel/sweden1.jpg); }
+  #sweden-carousel .slide:nth-child(3) {
+    background-image: url(/images/carousel/sweden2.jpg); }
+  #sweden-carousel .slide:nth-child(4) {
+    background-image: url(/images/carousel/sweden3.jpg); }
+  #sweden-carousel .slide:nth-child(5) {
+    background-image: url(/images/carousel/sweden4.jpg); }
+
+#wisconsin-carousel {
+  display: none; }
+  #wisconsin-carousel .slide:nth-child(1) {
+    background-image: url(/images/carousel/wisconsin.jpg); }
+  #wisconsin-carousel .slide:nth-child(2) {
+    background-image: url(/images/carousel/wisconsin1.jpg); }
+  #wisconsin-carousel .slide:nth-child(3) {
+    background-image: url(/images/carousel/wisconsin2.jpg); }
+  #wisconsin-carousel .slide:nth-child(4) {
+    background-image: url(/images/carousel/wisconsin3.jpg); }
+  #wisconsin-carousel .slide:nth-child(5) {
+    background-image: url(/images/carousel/wisconsin4.jpg); }
+
 /*  --------  LIGHTBOX  --------  */
 #lightbox {
   position: fixed;
@@ -316,5 +407,11 @@ p {
   height: 100%;
   background: url(/images/carousel/overlay.png) repeat;
   text-align: center; }
+
+circle {
+  stroke: #000;
+  stroke-width: 15px;
+  stroke-opacity: 0;
+  cursor: pointer; }
 
 /*# sourceMappingURL=styles.css.map */

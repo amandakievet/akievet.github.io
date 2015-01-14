@@ -404,6 +404,147 @@ p{
 }
 
 
+#laos-carousel{
+	display: none;
+	.slide:nth-child(1){
+		background-image:url(/images/carousel/laos.jpg);
+ 	}
+	.slide:nth-child(2){
+		background-image:url(/images/carousel/laos1.jpg);
+	}
+	.slide:nth-child(3){
+		background-image:url(/images/carousel/laos2.jpg);
+	 }
+	.slide:nth-child(4){
+		background-image:url(/images/carousel/laos3.jpg);
+	 }	
+	.slide:nth-child(5){
+		background-image:url(/images/carousel/laos4.jpg);
+	 }	
+}
+
+
+#domrep-carousel{
+	display: none;
+	.slide:nth-child(1){
+		background-image:url(/images/carousel/domrep.jpg);
+ 	}
+	.slide:nth-child(2){
+		background-image:url(/images/carousel/domrep1.jpg);
+	}
+	.slide:nth-child(3){
+		background-image:url(/images/carousel/domrep2.jpg);
+	 }
+	.slide:nth-child(4){
+		background-image:url(/images/carousel/domrep3.jpg);
+	 }	
+	.slide:nth-child(5){
+		background-image:url(/images/carousel/domrep4.jpg);
+	 }	
+}
+
+#isleroyale-carousel{
+	display: none;
+	.slide:nth-child(1){
+		background-image:url(/images/carousel/isleroyale.jpg);
+ 	}
+	.slide:nth-child(2){
+		background-image:url(/images/carousel/isleroyale1.jpg);
+	}
+	.slide:nth-child(3){
+		background-image:url(/images/carousel/isleroyale2.jpg);
+	 }
+	.slide:nth-child(4){
+		background-image:url(/images/carousel/isleroyale3.jpg);
+	 }	
+	.slide:nth-child(5){
+		background-image:url(/images/carousel/isleroyale4.jpg);
+	 }	
+}
+
+
+#yosemite-carousel{
+	display: none;
+	.slide:nth-child(1){
+		background-image:url(/images/carousel/yosemite.jpg);
+ 	}
+	.slide:nth-child(2){
+		background-image:url(/images/carousel/yosemite1.jpg);
+	}
+	.slide:nth-child(3){
+		background-image:url(/images/carousel/yosemite2.jpg);
+	 }
+	.slide:nth-child(4){
+		background-image:url(/images/carousel/yosemite3.jpg);
+	 }	
+	.slide:nth-child(5){
+		background-image:url(/images/carousel/yosemite4.jpg);
+	 }	
+}
+
+#denmark-carousel{
+	display: none;
+	.slide:nth-child(1){
+		background-image:url(/images/carousel/denmark.jpg);
+ 	}
+	.slide:nth-child(2){
+		background-image:url(/images/carousel/denmark1.jpg);
+	}
+	.slide:nth-child(3){
+		background-image:url(/images/carousel/denmark2.jpg);
+	 }
+	.slide:nth-child(4){
+		background-image:url(/images/carousel/denmark3.jpg);
+	 }	
+	.slide:nth-child(5){
+		background-image:url(/images/carousel/denmark4.jpg);
+	 }	
+}
+
+#sweden-carousel{
+	display: none;
+	.slide:nth-child(1){
+		background-image:url(/images/carousel/sweden.jpg);
+ 	}
+	.slide:nth-child(2){
+		background-image:url(/images/carousel/sweden1.jpg);
+	}
+	.slide:nth-child(3){
+		background-image:url(/images/carousel/sweden2.jpg);
+	 }
+	.slide:nth-child(4){
+		background-image:url(/images/carousel/sweden3.jpg);
+	 }	
+	.slide:nth-child(5){
+		background-image:url(/images/carousel/sweden4.jpg);
+	 }	
+}
+
+#wisconsin-carousel{
+	display: none;
+	.slide:nth-child(1){
+		background-image:url(/images/carousel/wisconsin.jpg);
+ 	}
+	.slide:nth-child(2){
+		background-image:url(/images/carousel/wisconsin1.jpg);
+	}
+	.slide:nth-child(3){
+		background-image:url(/images/carousel/wisconsin2.jpg);
+	 }
+	.slide:nth-child(4){
+		background-image:url(/images/carousel/wisconsin3.jpg);
+	 }	
+	.slide:nth-child(5){
+		background-image:url(/images/carousel/wisconsin4.jpg);
+	 }	
+}
+
+
+
+
+
+
+
 /*  --------  LIGHTBOX  --------  */
 
 #lightbox {
@@ -415,4 +556,11 @@ p{
 	height: 100%;
 	background:url(/images/carousel/overlay.png) repeat;
 	text-align: center;
+}
+
+circle{
+	stroke: #000;
+	stroke-width: 15px;
+	stroke-opacity: 0;
+	cursor: pointer;
 }
