@@ -28,7 +28,20 @@ triggerPlaneAnimation = function( startAnimation, percentage, element ){
 
 showCarousel = function(place){
 	var $carousel = $('#' + place + '-carousel');
-	$carousel.css({'display': 'block'});
+	
+	if ($('#lightbox').length > 0) {
+		$carousel.css({'display': 'block'});
+		$('#lightbox').show();	
+	} else {
+		var lightbox = '<div id="lightbox"></div>';
+		$('body').append(lightbox);
+		$carousel.css({'display': 'block'});
+	};
+
+	$('#lightbox').on('click', function(){
+		$carousel.css({'display': 'none'});
+		this.remove();
+	});
 }
 
 $(document).ready(function(){
