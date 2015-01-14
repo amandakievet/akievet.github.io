@@ -26,6 +26,24 @@ triggerPlaneAnimation = function( startAnimation, percentage, element ){
 	};
 }
 
+showCarousel = function(place){
+	var $carousel = $('#' + place + '-carousel');
+	
+	if ($('#lightbox').length > 0) {
+		$carousel.css({'display': 'block'});
+		$('#lightbox').show();	
+	} else {
+		var lightbox = '<div id="lightbox"></div>';
+		$('body').append(lightbox);
+		$carousel.css({'display': 'block'});
+	};
+
+	$('#lightbox').on('click', function(){
+		$carousel.css({'display': 'none'});
+		this.remove();
+	});
+}
+
 $(document).ready(function(){
 
 	$('.carousel').Zippy(args);
@@ -43,6 +61,8 @@ $(document).ready(function(){
 
 		var startAnim3 = $('.airplane').offset().top - wHeight;
 		var endAnim3 = startAnim3 + wHeight;
+
+
 
 		triggerParallaxAnimation(startAnim1, 0.15, '.macbook');
 		triggerParallaxAnimation(startAnim2, 0.15, '.moleskine');
@@ -62,4 +82,14 @@ $(document).ready(function(){
 		var src = $(e.target).attr("src").replace("color.jpg", ".jpg");
 		$(e.target).attr("src", src);
 	});
+
+	var vietnamTrigger = $('#vietnam')[0]
+	var vietnamCarousel = $('#vienam-carousel')[0]
+
+	$('circle').on('click', function(e){
+		var place = e.target.id;
+		showCarousel(place);
+	});
+
+
 })

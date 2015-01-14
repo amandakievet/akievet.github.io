@@ -138,11 +138,23 @@ p {
 .adventure-story {
   text-align: left; }
 
+.adventure-text {
+  position: relative;
+  margin-top: -350px; }
+
+/*  --------  MAP  --------  */
+#map {
+  position: relative;
+  z-index: -1;
+  bottom: 325px; }
+
 /*  --------  CAROUSEL  --------  */
 .carousel-wrapper {
-  width: 90%;
-  position: relative;
-  margin: 5% auto 0; }
+  width: 60%;
+  position: fixed;
+  top: 10%;
+  right: 20%;
+  z-index: 200; }
 
 .carousel {
   width: 100%;
@@ -268,16 +280,37 @@ p {
   border-radius:50%;
 }*/
 /*  --------  CAROUSEL IMAGES  --------  */
-.slide:nth-child(1) {
-  background-image: url(/images/carousel/morocco.jpg); }
+#vietnam-carousel {
+  display: none; }
+  #vietnam-carousel .slide:nth-child(1) {
+    background-image: url(/images/carousel/yosemite.jpg); }
+  #vietnam-carousel .slide:nth-child(2) {
+    background-image: url(/images/carousel/whites.jpg); }
+  #vietnam-carousel .slide:nth-child(3) {
+    background-image: url(/images/carousel/vietnam.jpg); }
+  #vietnam-carousel .slide:nth-child(4) {
+    background-image: url(/images/carousel/thailand.jpg); }
 
-.slide:nth-child(2) {
-  background-image: url(/images/carousel/whites.jpg); }
+#morocco-carousel {
+  display: none; }
+  #morocco-carousel .slide:nth-child(1) {
+    background-image: url(/images/carousel/morocco.jpg); }
+  #morocco-carousel .slide:nth-child(2) {
+    background-image: url(/images/carousel/lagos2.jpg); }
+  #morocco-carousel .slide:nth-child(3) {
+    background-image: url(/images/carousel/lagos3.jpg); }
+  #morocco-carousel .slide:nth-child(4) {
+    background-image: url(/images/carousel/mrhue.jpg); }
 
-.slide:nth-child(3) {
-  background-image: url(/images/carousel/vietnam.jpg); }
-
-.slide:nth-child(4) {
-  background-image: url(/images/carousel/thailand.jpg); }
+/*  --------  LIGHTBOX  --------  */
+#lightbox {
+  position: fixed;
+  z-index: 190;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/images/carousel/overlay.png) repeat;
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
