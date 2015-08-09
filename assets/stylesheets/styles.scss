@@ -1,38 +1,26 @@
 $prefix:'-moz-', '-webkit-', '-o-', '-ms-', '';
 
-$grey: #333;
-$dark-grey: #eee;
-$darker-grey: #aaa;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;
+
 $top-padding: 30px;
 
+$mainColor: #000;
 // $accent: #160BFD;
 $accent: #000;
 
 $monospace: "Courier New", Courier, monospace;
-$display: "Lydia Bold Condensed", 'Avenir Next Condensed', 'Helvetica Neue Condensed', 'Arial Narrow', sans-serif;
+$display: "Lydia Bold Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-
+html {
+	font-size: 16px;
+}
 
 body {
-	color: $grey;
-	text-align: center;
-}
-
-.lg_title {
-	font-family: $display;
-	font-weight: bold;
-	font-style: normal;
-	font-size: 12em;
-	margin: 0;
-	line-height: 1.1;
-	text-align: left;
-	text-transform: uppercase;
-	opacity: 0;
-}
-
-header{
-	height: 30vh;
-	padding-top: 100px;
+  font-size: 100%;
+  line-height: 1.25;
+  color: $mainColor;
 }
 
 section{
@@ -45,8 +33,8 @@ ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	font-family: $monospace;
 }
+
 
 a{
 	color: $accent;
@@ -55,6 +43,124 @@ a{
 		color: $accent;
 	}
 }
+
+// ********************
+// typography
+// ********************
+
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
+}
+
+
+.display {
+	font-family: $display;
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+	text-align: center;
+  letter-spacing: 1px;
+
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 1.625em;
+  line-height: 1.15384615;
+}
+
+h3 {
+  font-size: 1.375em;
+  line-height: 1.13636364;
+}
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.11111111;
+}
+
+blockquote {
+  font-size: 2em;
+  line-height: 1.25;
+}
+
+.x_large {
+	@extend .display;
+	font-size: 6em;
+	margin: 0;
+	line-height: 1.1;
+	text-align: left;
+	opacity: 0;
+}
+
+li {
+	@extend .display;
+	text-align: left;
+	font-size: 1.25em;  
+}
+
+@media (min-width: $breakpoint-sm) {
+	body {
+    font-size: 1em;
+    line-height: 1.375;
+  }
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.125;
+  }
+  h2 {
+    font-size: 2em;
+    line-height: 1.25;
+  }
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+  h4 {
+    line-height: 1.22222222;
+  }
+  blockquote {
+    font-size: 2.5em;
+    line-height: 1.45833333;
+  }
+  .x_large {
+  	font-size: 10em;
+  }
+}
+
+
+@media (min-width: $breakpoint-md) {
+  h1 {
+    font-size: 3em;
+    line-height: 1.05;
+  }
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.25;
+  }
+  h3 {
+    font-size: 1.75em;
+    line-height: 1.25;
+  }
+  blockquote {
+  	font-size: 3.5em;
+  	line-height: 1.25;
+  }
+  .x_large {
+  	font-size: 12em;
+  }
+}
+
+.subtitle {
+	border-top: 1px solid $mainColor;
+	border-bottom: 1px solid $mainColor;
+}
+
 
 // ********************
 // fadeIn
