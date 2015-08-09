@@ -2,14 +2,14 @@ body {
   color: #333;
   text-align: center; }
 
-.wip {
+.lg_title {
   font-family: "Lydia Bold Condensed", "Avenir Next Condensed", "Helvetica Neue Condensed", "Arial Narrow", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 12em;
   margin: 0;
   line-height: 1.1;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   opacity: 0; }
 
@@ -19,6 +19,7 @@ header {
 
 section {
   width: 100%;
+  min-height: 200px;
   padding-top: 30px; }
 
 ul {
@@ -28,10 +29,10 @@ ul {
   font-family: "Courier New", Courier, monospace; }
 
 a {
-  color: #160BFD;
+  color: #000;
   text-decoration: none; }
   a:hover {
-    color: #160BFD; }
+    color: #000; }
 
 @-moz-keyframes fadeIn {
   0% {

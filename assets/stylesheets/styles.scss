@@ -5,7 +5,8 @@ $dark-grey: #eee;
 $darker-grey: #aaa;
 $top-padding: 30px;
 
-$accent: #160BFD;
+// $accent: #160BFD;
+$accent: #000;
 
 $monospace: "Courier New", Courier, monospace;
 $display: "Lydia Bold Condensed", 'Avenir Next Condensed', 'Helvetica Neue Condensed', 'Arial Narrow', sans-serif;
@@ -17,14 +18,14 @@ body {
 	text-align: center;
 }
 
-.wip {
+.lg_title {
 	font-family: $display;
 	font-weight: bold;
 	font-style: normal;
 	font-size: 12em;
 	margin: 0;
 	line-height: 1.1;
-	text-align: center;
+	text-align: left;
 	text-transform: uppercase;
 	opacity: 0;
 }
@@ -36,6 +37,7 @@ header{
 
 section{
 	width: 100%;
+	min-height: 200px;
 	padding-top: $top-padding;
 }
 

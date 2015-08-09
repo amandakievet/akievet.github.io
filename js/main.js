@@ -5,6 +5,7 @@ var delayFadeIn = function($elem, time) {
 }
 
 $(document).ready(function(){
-	delayFadeIn($('#designer'), 1500);
-	delayFadeIn($('#adventurer'), 2500);
+	delayFadeIn($('.developer'), 1000);
+	delayFadeIn($('.designer'), 1500);
+	delayFadeIn($('.adventurer'), 2000);
 });
