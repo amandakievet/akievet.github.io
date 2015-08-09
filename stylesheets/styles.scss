@@ -8,11 +8,19 @@ $accent: #160BFD;
 $serif: 'Playfair Display', serif;
 /*$sans-serif: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 $monospace: "Courier New", Courier, monospace;
+$display: "Lydia Bold Condensed", 'Avenir Next Condensed', 'Helvetica Neue Condensed', 'Arial Narrow', sans-serif;
+
 
 
 body {
 	color: $grey;
 	text-align: center;
+}
+h1 {
+  font-family:"Apercu Regular", Calibri, sans-serif;
+  font-size-adjust:0.508; 
+  font-weight:normal;
+  font-style:normal;
 }
 
 header{

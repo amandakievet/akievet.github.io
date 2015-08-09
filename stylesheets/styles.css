@@ -3,6 +3,12 @@ body {
   color: #333;
   text-align: center; }
 
+h1 {
+  font-family: "Apercu Regular", Calibri, sans-serif;
+  font-size-adjust: 0.508;
+  font-weight: normal;
+  font-style: normal; }
+
 header {
   height: 30vh;
   padding-top: 100px; }
