@@ -21,28 +21,14 @@ body {
   font-size: 100%;
   line-height: 1.25;
   color: $mainColor;
+  font-family: $display;
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+	text-align: left;
+  letter-spacing: 1px;
 }
 
-section{
-	width: 100%;
-	min-height: 200px;
-	padding-top: $top-padding;
-}
-
-ul{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-
-a{
-	color: $accent;
-	text-decoration: none;
-	&:hover{
-		color: $accent;
-	}
-}
 
 // ********************
 // typography
@@ -53,15 +39,8 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
   font-size-adjust: 0.5;
 }
 
-
-.display {
-	font-family: $display;
-	font-weight: bold;
-	font-style: normal;
-	text-transform: uppercase;
-	text-align: center;
-  letter-spacing: 1px;
-
+p {
+	font-size: 1.2em;
 }
 
 h1 {
@@ -84,22 +63,20 @@ h4 {
   line-height: 1.11111111;
 }
 
-blockquote {
+.quote {
   font-size: 2em;
   line-height: 1.25;
 }
 
 .x_large {
-	@extend .display;
 	font-size: 6em;
 	margin: 0;
-	line-height: 1.1;
+	line-height: 1;
 	text-align: left;
 	opacity: 0;
 }
 
 li {
-	@extend .display;
 	text-align: left;
 	font-size: 1.25em;  
 }
@@ -124,7 +101,7 @@ li {
   h4 {
     line-height: 1.22222222;
   }
-  blockquote {
+  .quote {
     font-size: 2.5em;
     line-height: 1.45833333;
   }
@@ -147,7 +124,7 @@ li {
     font-size: 1.75em;
     line-height: 1.25;
   }
-  blockquote {
+  .quote {
   	font-size: 3.5em;
   	line-height: 1.25;
   }
@@ -161,6 +138,54 @@ li {
 	border-bottom: 1px solid $mainColor;
 }
 
+
+// ********************
+// components
+// ********************
+
+.info h3 {
+	margin: 0;
+}
+
+section{
+	width: 100%;
+	min-height: 80vh;
+	padding-top: $top-padding;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+a{
+	color: $accent;
+	text-decoration: none;
+	&:hover{
+		color: $accent;
+	}
+}
+
+img {
+	width: 100%;
+}
+
+header {
+	padding-top: 10px;
+	h2 {
+		display: inline;
+	}
+}
+
+.main {
+	padding-bottom: 100px;
+}
+
+.content-section {
+	padding-top: 50px;
+}
 
 // ********************
 // fadeIn
