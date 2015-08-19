@@ -4,7 +4,8 @@ $breakpoint-sm: 768px;
 $breakpoint-md: 992px;
 $breakpoint-lg: 1200px;
 
-$top-padding: 30px;
+$top-padding: 100px;
+$bottom-padding: 50px;
 
 $mainColor: #000;
 // $accent: #160BFD;
@@ -149,8 +150,7 @@ li {
 
 section{
 	width: 100%;
-	min-height: 80vh;
-	padding-top: $top-padding;
+	padding-bottom: $bottom-padding;
 }
 
 ul{
@@ -177,14 +177,17 @@ header {
 	h2 {
 		display: inline;
 	}
-}
-
-.main {
-	padding-bottom: 100px;
+	.nav {
+		text-align: right;
+		float: right;
+		display: inline;
+		width: 40%;
+		padding-top: 5px;
+	}
 }
 
 .content-section {
-	padding-top: 50px;
+	padding-top: $top-padding;
 }
 
 // ********************
