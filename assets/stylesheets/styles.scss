@@ -190,6 +190,12 @@ header {
 	padding-top: $top-padding;
 }
 
+#adventurer {
+  img {
+    margin: 10px 0;
+  }
+}
+
 // ********************
 // fadeIn
 // ********************
@@ -224,4 +230,5 @@ header {
 	@include fadeIn( 3s );
 	opacity: 1;
 }
+
 

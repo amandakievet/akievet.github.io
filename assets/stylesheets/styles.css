@@ -133,6 +133,9 @@ header {
 .content-section {
   padding-top: 100px; }
 
+#adventurer img {
+  margin: 10px 0; }
+
 @-moz-keyframes fadeIn {
   0% {
     opacity: 0; }
