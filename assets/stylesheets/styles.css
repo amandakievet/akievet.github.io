@@ -93,7 +93,7 @@ li {
     line-height: 1.25; }
 
   .x_large {
-    font-size: 12em; } }
+    font-size: 8em; } }
 .subtitle {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000; }
@@ -129,6 +129,9 @@ header {
     display: inline;
     width: 40%;
     padding-top: 5px; }
+
+.main_typography {
+  padding-top: 100px; }
 
 .content-section {
   padding-top: 100px; }
