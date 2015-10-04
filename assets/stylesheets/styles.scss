@@ -8,14 +8,13 @@ $top-padding: 100px;
 $bottom-padding: 50px;
 
 $mainColor: #000;
-// $accent: #FB4134;
-$accent: #666;
+$accent: #ff4e48;
 
 $monospace: "Courier New", Courier, monospace;
-$display: "Lydia Bold Condensed", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$display: "Lydia Bold Condensed", 'Futura', Helvetica, Arial, sans-serif;
 
 html {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 body {
@@ -23,10 +22,10 @@ body {
   line-height: 1.25;
   color: $mainColor;
   font-family: $display;
-	font-weight: bold;
-	font-style: normal;
-	text-transform: uppercase;
-	text-align: left;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: left;
   letter-spacing: 1px;
 }
 
@@ -41,7 +40,7 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 }
 
 p {
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 h1 {
@@ -70,15 +69,15 @@ h4 {
 }
 
 .x_large {
-	font-size: 5em;
-	margin: 0;
-	line-height: 1;
-	text-align: left;
+  font-size: 5em;
+  margin: 0;
+  line-height: 1;
+  text-align: left;
 }
 
 li {
-	text-align: left;
-	font-size: 1.25em;  
+  text-align: left;
+  font-size: 1.25em;
 }
 
 @media (min-width: $breakpoint-sm) {
@@ -125,17 +124,17 @@ li {
     line-height: 1.25;
   }
   .quote {
-  	font-size: 3.5em;
-  	line-height: 1.25;
+    font-size: 3.5em;
+    line-height: 1.25;
   }
   .x_large {
-  	font-size: 8em;
+    font-size: 8em;
   }
 }
 
 .subtitle {
-	border-top: 1px solid $mainColor;
-	border-bottom: 1px solid $mainColor;
+  border-top: 1px solid $mainColor;
+  border-bottom: 1px solid $mainColor;
 }
 
 
@@ -143,28 +142,35 @@ li {
 // components
 // ********************
 
+.main {
+  background-image: url('/assets/images/whites.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .info h3 {
-	margin: 0;
+  margin: 0;
 }
 
 section{
-	width: 100%;
-	padding-bottom: $bottom-padding;
+  width: 100%;
+  padding-bottom: $bottom-padding;
 }
 
 ul{
-	list-style: none;
-	margin: 0;
-	padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 
 a{
-	color: $accent;
-	text-decoration: none;
-	&:hover{
-		color: $accent;
-	}
+  color: $accent;
+  text-decoration: none;
+  &:hover{
+    color: $accent;
+  }
 }
 
 img {
@@ -172,7 +178,7 @@ img {
 }
 
 header {
-	padding-top: 10px;
+	padding: 10px;
 	h2 {
 		display: inline;
 	}

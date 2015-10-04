@@ -5,7 +5,7 @@ body {
   font-size: 100%;
   line-height: 1.25;
   color: #000;
-  font-family: "Lydia Bold Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lydia Bold Condensed", "Futura", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
   text-transform: uppercase;
@@ -97,6 +97,12 @@ li {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000; }
 
+.main {
+  background-image: url("/assets/images/whites.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
 .info h3 {
   margin: 0; }
 
@@ -110,16 +116,16 @@ ul {
   padding: 0; }
 
 a {
-  color: #666;
+  color: #ff4e48;
   text-decoration: none; }
   a:hover {
-    color: #666; }
+    color: #ff4e48; }
 
 img {
   width: 100%; }
 
 header {
-  padding-top: 10px; }
+  padding: 10px; }
   header h2 {
     display: inline; }
   header .nav {
