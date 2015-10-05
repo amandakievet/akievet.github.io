@@ -48,6 +48,9 @@ h4 {
     .x_large a:hover {
       color: #FB4134; }
 
+.content p {
+  font-size: 1.5em; }
+
 li {
   text-align: left;
   font-size: 1.25em; }
@@ -138,6 +141,8 @@ header {
     display: inline;
     width: 40%;
     padding-top: 5px; }
+    header .nav a {
+      padding: 0 30px; }
 
 .main_typography {
   padding-top: 100px; }
