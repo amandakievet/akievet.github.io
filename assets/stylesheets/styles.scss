@@ -8,7 +8,7 @@ $top-padding: 100px;
 $bottom-padding: 50px;
 
 $mainColor: #000;
-$accent: #ff4e48;
+$accent: #FB4134;
 
 $monospace: "Courier New", Courier, monospace;
 $display: "Lydia Bold Condensed", 'Futura', Helvetica, Arial, sans-serif;
@@ -73,6 +73,13 @@ h4 {
   margin: 0;
   line-height: 1;
   text-align: left;
+
+  a {
+    color: white;
+    &:hover {
+      color: $accent;
+    }
+  }
 }
 
 li {

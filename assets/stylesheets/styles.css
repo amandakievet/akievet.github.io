@@ -43,6 +43,10 @@ h4 {
   margin: 0;
   line-height: 1;
   text-align: left; }
+  .x_large a {
+    color: white; }
+    .x_large a:hover {
+      color: #FB4134; }
 
 li {
   text-align: left;
@@ -116,10 +120,10 @@ ul {
   padding: 0; }
 
 a {
-  color: #ff4e48;
+  color: #FB4134;
   text-decoration: none; }
   a:hover {
-    color: #ff4e48; }
+    color: #FB4134; }
 
 img {
   width: 100%; }
