@@ -39,7 +39,7 @@ h4 {
   line-height: 1.25; }
 
 .x_large {
-  font-size: 5em;
+  font-size: 4em;
   margin: 0;
   line-height: 1;
   text-align: left; }
@@ -47,6 +47,9 @@ h4 {
     color: white; }
     .x_large a:hover {
       color: #FB4134; }
+
+.logo {
+  display: inline-block; }
 
 .content p {
   font-size: 1.5em; }
