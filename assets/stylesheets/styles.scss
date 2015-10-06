@@ -83,7 +83,7 @@ h4 {
 }
 
 .logo {
-  display: inline-block;
+  display: inline;
 }
 
 .content p {
@@ -121,6 +121,10 @@ li {
   }
   .x_large {
   	font-size: 10em;
+  }
+
+  .nav {
+    padding-top: 13px;
   }
 }
 
@@ -202,7 +206,6 @@ header {
 		float: right;
 		display: inline;
 		width: 40%;
-		padding-top: 13px;
 
     a {
       padding: 0 30px;

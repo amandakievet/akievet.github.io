@@ -49,7 +49,7 @@ h4 {
       color: #FB4134; }
 
 .logo {
-  display: inline-block; }
+  display: inline; }
 
 .content p {
   font-size: 1.5em; }
@@ -83,7 +83,10 @@ li {
     line-height: 1.45833333; }
 
   .x_large {
-    font-size: 10em; } }
+    font-size: 10em; }
+
+  .nav {
+    padding-top: 13px; } }
 @media (min-width: 992px) {
   h1 {
     font-size: 3em;
@@ -142,8 +145,7 @@ header {
     text-align: right;
     float: right;
     display: inline;
-    width: 40%;
-    padding-top: 13px; }
+    width: 40%; }
     header .nav a {
       padding: 0 30px; }
 
