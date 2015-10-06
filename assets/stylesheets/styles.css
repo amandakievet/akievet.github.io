@@ -46,7 +46,7 @@ h4 {
   .x_large a {
     color: white; }
     .x_large a:hover {
-      color: #FB4134; }
+      color: #FC571F; }
 
 .logo {
   display: inline; }
@@ -111,9 +111,9 @@ li {
   border-bottom: 1px solid #000; }
 
 .main {
-  background-image: url("/assets/images/whites.jpg");
+  background-image: url("/assets/images/selffloor.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-size: cover; }
 
 .info h3 {
@@ -129,10 +129,10 @@ ul {
   padding: 0; }
 
 a {
-  color: #FB4134;
+  color: #FC571F;
   text-decoration: none; }
   a:hover {
-    color: #FB4134; }
+    color: #FC571F; }
 
 img {
   width: 100%; }
